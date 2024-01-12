@@ -1,0 +1,27 @@
+3-header.css
+/* Styles for the header */
+header {
+  position: relative;
+}
+
+/* Styles for the logo */
+.logo {
+  /* Add your logo styles here */
+}
+
+/* Styles for the API status div */
+#api_status {
+  position: absolute;
+  top: 50%;
+  right: 30px;
+  transform: translateY(-50%);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #cccccc;
+}
+
+/* Additional class for API status */
+.available {
+  background-color: #ff545f;
+}
